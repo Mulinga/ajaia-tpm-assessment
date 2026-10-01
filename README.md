@@ -1,6 +1,6 @@
 # Ajaia Technical Project Manager Assessment – Charles Kyalo Mulinga
 
-**Video walkthrough:** [PASTE VIDEO LINK]
+**Video walkthrough:** https://www.loom.com/share/cb5c6c16c9e240f0a220eec2d19ae85c
 **Build (GitHub):** https://github.com/Mulinga/ajaia-tpm-assessment
 **Resume:** https://drive.google.com/file/d/1ZFOpTKlKHwwY-SyHn-z534K7x1OthwP7/view?usp=drive_link
 **Other work:** https://github.com/Mulinga
@@ -49,7 +49,7 @@ Records not confidently cleaned
   CPX-88216: missing carrier code
 ```
 
-**What it does and how I checked it worked:** [EDIT INTO YOUR OWN WORDS] The script normalises terminal names ("T3" becomes "Terminal 3"), carrier codes ("swft", "SWFT" and "Swft" become "SWFT") and three timestamp formats into one, then counts exceptions by event type. It flags rather than guesses: CPX-88216 has no carrier code, and CPX-88215 is the only UTC timestamp while the rest have no timezone, so it can't be safely compared until FreightWorks confirms the source timezone – a question for the same IT contact blocking DET-121. To prove it worked rather than just ran, `test_clean_exceptions.py` asserts the exact expected value for every record, confirms no rows are dropped, and checks that unknown values (an unknown terminal, an invalid carrier, a day-first date) are flagged instead of guessed. All 11 checks pass.
+**What it does and how I checked it worked:** The script normalises terminal names ("T3" becomes "Terminal 3"), carrier codes ("swft", "SWFT" and "Swft" become "SWFT") and three timestamp formats into one, then counts exceptions by event type. It flags rather than guesses: CPX-88216 has no carrier code, and CPX-88215 is the only UTC timestamp while the rest have no timezone, so it can't be safely compared until FreightWorks confirms the source timezone – a question for the same IT contact blocking DET-121. To prove it worked rather than just ran, `test_clean_exceptions.py` asserts the exact expected value for every record, confirms no rows are dropped, and checks that unknown values (an unknown terminal, an invalid carrier, a day-first date) are flagged instead of guessed. All 11 checks pass. The test results can be seen from my Google Collab Repo: 
 
 ---
 
@@ -83,7 +83,8 @@ Technical Project Manager, Ajaia
 
 ## Task 4 – AI workflow note
 
-[WRITE IN YOUR OWN WORDS – 3 to 4 sentences]
-- **Used AI for:** 
-- **Kept human:** 
-- **One thing AI got wrong, or I checked or chose not to use:** 
+AI helped me get from a blank page to a workable draft: I used it to shape the triage reasoning, scaffold the cleaning script and tests, and draft the status update. 
+I kept the consequential calls human: what threatened launch versus what was noise, whether auto-reassignment belonged in scope, and how directly to correct last week's status. 
+I also checked the README before calling the work submission-ready and caught unfinished placeholders for the video link, Task 2 explanation, and next-update day. 
+I independently ran the script using Google Collab, and can confirm the results as presented by the Ai tool I used.
+I also independently wrote the status update for Dana, so that I could be sure what I asked of her, and used the right tone for the email.
