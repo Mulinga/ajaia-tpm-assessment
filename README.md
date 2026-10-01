@@ -3,7 +3,7 @@
 **Video walkthrough:** https://www.loom.com/share/cb5c6c16c9e240f0a220eec2d19ae85c
 **Build (GitHub):** https://github.com/Mulinga/ajaia-tpm-assessment
 **Resume:** https://drive.google.com/file/d/1ZFOpTKlKHwwY-SyHn-z534K7x1OthwP7/view?usp=drive_link
-**Other work:** https://github.com/Mulinga
+**Google Collab Notebook:** https://drive.google.com/drive/folders/1Fm-byAfXt5YIF-u--bH885ZhJ7DytmHW?usp=sharing
 **Prepared for:** Ajaia – https://ajaia.ai
 
 ---
