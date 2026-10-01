@@ -73,7 +73,7 @@ I need to start with a correction. Last Friday's update reported Green with no b
 
 **What I need from you:** the name of your FreightWorks IT contact, ideally today, so we can meet by Friday.
 
-I'll send the next update on [DAY], and I'll contact you sooner if anything changes on Terminal 3.
+I'll send the next update in a few days, and I'll contact you sooner if anything changes on Terminal 3.
 
 Best regards,
 Charles Kyalo Mulinga
