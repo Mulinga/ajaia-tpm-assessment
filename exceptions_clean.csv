@@ -1,0 +1,6 @@
+exception_id,terminal,event_type,carrier_code,event_ts,ts_timezone,confident,issues
+CPX-88213,Terminal 3,missed_pickup,SWFT,2026-08-14 09:12:00,unspecified,yes,
+CPX-88214,Terminal 3,doc_mismatch,SWFT,2026-08-14 09:45:00,unspecified,yes,
+CPX-88215,Terminal 3,missed_pickup,SWFT,2026-08-14 10:03:00,UTC,no,"timestamp is UTC ('Z') while others have no timezone; kept as written, needs FreightWorks to confirm source timezone"
+CPX-88216,Terminal 3,doc_mismatch,,2026-08-14 11:47:00,unspecified,no,missing carrier code
+CPX-88217,Terminal 3,carrier_substitution,RLCX,2026-08-15 08:02:00,unspecified,yes,
